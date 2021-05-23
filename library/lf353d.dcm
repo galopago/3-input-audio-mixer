@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LF353D
+D OpAmp.2 3MHz JFET VLowIB LowNoise [SOIC-8]
+K dual jfet opamp
+F http://www.ti.com/lit/ds/symlink/lf353.pdf
+$ENDCMP
+#
+#End Doc Library

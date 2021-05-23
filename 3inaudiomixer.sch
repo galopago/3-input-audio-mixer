@@ -1,0 +1,72 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L lf353d:LF353D U1
+U 1 1 60A9B4CA
+P 3700 3250
+F 0 "U1" H 3750 3617 50  0000 C CNN
+F 1 "LF353D" H 3750 3526 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3700 2950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf353.pdf" H 3700 2850 50  0001 C CNN
+F 4 "LF353D" H 3700 2550 50  0001 C CNN "MPN"
+F 5 "TI" H 3700 2650 50  0001 C CNN "Manuf"
+F 6 "TI LF353D" H 3700 2750 50  0001 C CNN "BOM"
+	1    3700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L lf353d:LF353D U1
+U 2 1 60A9BE81
+P 3750 3900
+F 0 "U1" H 3800 4267 50  0000 C CNN
+F 1 "LF353D" H 3800 4176 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3750 3600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf353.pdf" H 3750 3500 50  0001 C CNN
+F 4 "LF353D" H 3750 3200 50  0001 C CNN "MPN"
+F 5 "TI" H 3750 3300 50  0001 C CNN "Manuf"
+F 6 "TI LF353D" H 3750 3400 50  0001 C CNN "BOM"
+	2    3750 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lf353d:LF353D U2
+U 1 1 60A9C9B0
+P 5800 3150
+F 0 "U2" H 5850 3517 50  0000 C CNN
+F 1 "LF353D" H 5850 3426 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5800 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf353.pdf" H 5800 2750 50  0001 C CNN
+F 4 "LF353D" H 5800 2450 50  0001 C CNN "MPN"
+F 5 "TI" H 5800 2550 50  0001 C CNN "Manuf"
+F 6 "TI LF353D" H 5800 2650 50  0001 C CNN "BOM"
+	1    5800 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L lf353d:LF353D U2
+U 2 1 60A9D103
+P 5900 3950
+F 0 "U2" H 5950 4317 50  0000 C CNN
+F 1 "LF353D" H 5950 4226 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5900 3650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf353.pdf" H 5900 3550 50  0001 C CNN
+F 4 "LF353D" H 5900 3250 50  0001 C CNN "MPN"
+F 5 "TI" H 5900 3350 50  0001 C CNN "Manuf"
+F 6 "TI LF353D" H 5900 3450 50  0001 C CNN "BOM"
+	2    5900 3950
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
