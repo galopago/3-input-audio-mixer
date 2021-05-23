@@ -69,4 +69,98 @@ F 6 "TI LF353D" H 5900 3450 50  0001 C CNN "BOM"
 	2    5900 3950
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_POT RV1
+U 1 1 60A9BD08
+P 4800 4300
+F 0 "RV1" H 4731 4346 50  0000 R CNN
+F 1 "R_POT" H 4731 4255 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Horizontal" H 4800 4300 50  0001 C CNN
+F 3 "~" H 4800 4300 50  0001 C CNN
+	1    4800 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV2
+U 1 1 60A9E345
+P 4850 3800
+F 0 "RV2" H 4781 3846 50  0000 R CNN
+F 1 "R_POT" H 4781 3755 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Horizontal" H 4850 3800 50  0001 C CNN
+F 3 "~" H 4850 3800 50  0001 C CNN
+	1    4850 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_POT RV3
+U 1 1 60A9EA12
+P 5200 4600
+F 0 "RV3" H 5131 4646 50  0000 R CNN
+F 1 "R_POT" H 5131 4555 50  0000 R CNN
+F 2 "Potentiometer_THT:Potentiometer_Omeg_PC16BU_Horizontal" H 5200 4600 50  0001 C CNN
+F 3 "~" H 5200 4600 50  0001 C CNN
+	1    5200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J2
+U 1 1 60AA760F
+P 2050 3900
+F 0 "J2" H 2032 4225 50  0000 C CNN
+F 1 "AudioJack3" H 2032 4134 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles" H 2050 3900 50  0001 C CNN
+F 3 "~" H 2050 3900 50  0001 C CNN
+	1    2050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J1
+U 1 1 60AA8E72
+P 2550 3900
+F 0 "J1" H 2532 4225 50  0000 C CNN
+F 1 "AudioJack3" H 2532 4134 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles" H 2550 3900 50  0001 C CNN
+F 3 "~" H 2550 3900 50  0001 C CNN
+	1    2550 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:AudioJack3 J3
+U 1 1 60AA954D
+P 3050 3900
+F 0 "J3" H 3032 4225 50  0000 C CNN
+F 1 "AudioJack3" H 3032 4134 50  0000 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles" H 3050 3900 50  0001 C CNN
+F 3 "~" H 3050 3900 50  0001 C CNN
+	1    3050 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L lf353d:LF353D U1
+U 3 1 60AACA7F
+P 4400 3200
+F 0 "U1" H 4530 3246 50  0000 L CNN
+F 1 "LF353D" H 4530 3155 50  0000 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4400 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf353.pdf" H 4400 2800 50  0001 C CNN
+F 4 "LF353D" H 4400 2500 50  0001 C CNN "MPN"
+F 5 "TI" H 4400 2600 50  0001 C CNN "Manuf"
+F 6 "TI LF353D" H 4400 2700 50  0001 C CNN "BOM"
+	3    4400 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L lf353d:LF353D U2
+U 3 1 60AAFDA3
+P 6600 3500
+F 0 "U2" H 6730 3546 50  0000 L CNN
+F 1 "LF353D" H 6730 3455 50  0000 L CNN
+F 2 "IPC7351-Nominal:SOIC127P600X175-8" H 6600 3200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lf353.pdf" H 6600 3100 50  0001 C CNN
+F 4 "LF353D" H 6600 2800 50  0001 C CNN "MPN"
+F 5 "TI" H 6600 2900 50  0001 C CNN "Manuf"
+F 6 "TI LF353D" H 6600 3000 50  0001 C CNN "BOM"
+	3    6600 3500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
