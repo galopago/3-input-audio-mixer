@@ -545,8 +545,6 @@ Wire Wire Line
 Wire Wire Line
 	5100 4000 5250 4000
 Wire Wire Line
-	5100 5700 5250 5700
-Wire Wire Line
 	5550 2400 5750 2400
 Wire Wire Line
 	5750 4000 5550 4000
@@ -602,7 +600,7 @@ U 1 1 60CCE7ED
 P 7650 3450
 F 0 "J4" H 7370 3383 50  0000 R CNN
 F 1 "AudioJack3" H 7370 3474 50  0000 R CNN
-F 2 "" H 7650 3450 50  0001 C CNN
+F 2 "Connector_Audio:Jack_3.5mm_CUI_SJ1-3533NG_Horizontal_CircularHoles" H 7650 3450 50  0001 C CNN
 F 3 "~" H 7650 3450 50  0001 C CNN
 	1    7650 3450
 	-1   0    0    1   
@@ -850,4 +848,6 @@ Wire Wire Line
 Wire Wire Line
 	9650 1650 9650 1450
 Connection ~ 9650 1450
+Wire Wire Line
+	5050 5700 5250 5700
 $EndSCHEMATC
