@@ -856,25 +856,25 @@ U 1 1 60B79D11
 P 10300 1450
 F 0 "J5" H 10328 1476 50  0000 L CNN
 F 1 "Conn_01x03_Female" H 10328 1385 50  0000 L CNN
-F 2 "" H 10300 1450 50  0001 C CNN
+F 2 "TerminalBlock_4Ucon:TerminalBlock_4Ucon_1x03_P3.50mm_Horizontal" H 10300 1450 50  0001 C CNN
 F 3 "~" H 10300 1450 50  0001 C CNN
 	1    10300 1450
-	1    0    0    -1  
+	1    0    0    1   
 $EndComp
 Wire Wire Line
-	9650 1450 10100 1450
-Wire Wire Line
 	9650 2100 10000 2100
-Wire Wire Line
-	10000 2100 10000 1550
-Wire Wire Line
-	10000 1550 10100 1550
 Connection ~ 9650 2100
 Wire Wire Line
 	9650 800  10000 800 
+Connection ~ 9650 800 
 Wire Wire Line
 	10000 800  10000 1350
 Wire Wire Line
 	10000 1350 10100 1350
-Connection ~ 9650 800 
+Wire Wire Line
+	10000 2100 10000 1550
+Wire Wire Line
+	10000 1550 10100 1550
+Wire Wire Line
+	10100 1450 9650 1450
 $EndSCHEMATC
