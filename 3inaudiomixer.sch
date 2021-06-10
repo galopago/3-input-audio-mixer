@@ -164,28 +164,6 @@ F 6 "TI LF353D" H 7450 950 50  0001 C CNN "BOM"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Regulator_Linear:L78L05_SOT89 U3
-U 1 1 60AFE4C9
-P 9200 800
-F 0 "U3" H 9200 1042 50  0000 C CNN
-F 1 "L78L05_SOT89" H 9200 951 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 9200 1000 50  0001 C CIN
-F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 9200 750 50  0001 C CNN
-	1    9200 800 
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Regulator_Linear:L79L05_SOT89 U4
-U 1 1 60AFF106
-P 9200 2100
-F 0 "U4" H 9200 1951 50  0000 C CNN
-F 1 "L79L05_SOT89" H 9200 1860 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-89-3" H 9200 1900 50  0001 C CIN
-F 3 "http://www.farnell.com/datasheets/1827870.pdf" H 9200 2100 50  0001 C CNN
-	1    9200 2100
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Device:R R3
 U 1 1 60B01F57
 P 3300 2200
@@ -650,13 +628,6 @@ Connection ~ 2800 1900
 Wire Wire Line
 	2800 1900 2850 1900
 Wire Wire Line
-	9200 1100 9200 1450
-Wire Wire Line
-	9200 1450 8750 1450
-Connection ~ 9200 1450
-Wire Wire Line
-	9200 1450 9200 1800
-Wire Wire Line
 	5950 1450 5950 2850
 Wire Wire Line
 	8350 1050 8350 800 
@@ -785,8 +756,6 @@ Wire Wire Line
 	8750 1000 8750 800 
 Connection ~ 8750 800 
 Wire Wire Line
-	8750 800  8900 800 
-Wire Wire Line
 	8750 1300 8750 1450
 Connection ~ 8750 1450
 Wire Wire Line
@@ -796,8 +765,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 1900 8750 2100
 Connection ~ 8750 2100
-Wire Wire Line
-	8750 2100 8900 2100
 Wire Wire Line
 	2750 3500 2750 2850
 Connection ~ 2750 3500
@@ -834,15 +801,9 @@ F 3 "~" H 9650 1800 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	9500 800  9650 800 
-Wire Wire Line
 	9650 800  9650 950 
 Wire Wire Line
-	9200 1450 9650 1450
-Wire Wire Line
 	9650 1450 9650 1250
-Wire Wire Line
-	9500 2100 9650 2100
 Wire Wire Line
 	9650 2100 9650 1950
 Wire Wire Line
@@ -877,4 +838,10 @@ Wire Wire Line
 	10000 1550 10100 1550
 Wire Wire Line
 	10100 1450 9650 1450
+Wire Wire Line
+	8750 1450 9650 1450
+Wire Wire Line
+	8750 800  9650 800 
+Wire Wire Line
+	8750 2100 9650 2100
 $EndSCHEMATC
